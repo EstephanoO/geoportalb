@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subir Archivo GeoJSON</title>
+</head>
+
+<body>
+  <h1>Subir Archivo GeoJSON</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="geojson">Selecciona un archivo GeoJSON (DEPARTAMENTOS.geojson):</label>
+    <input type="file" name="geojson" id="geojson" accept=".geojson">
+    <button type="submit">Subir</button>
+  </form>
+</body>
+
+</html>
